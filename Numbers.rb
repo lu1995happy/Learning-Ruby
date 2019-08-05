@@ -1,3 +1,44 @@
+# Numbers
+p 1 + 2
+p 5 + 6
+p 10 * 2
+p 10 / 2
+p 10 / 4
+
+# float
+p 10.0 / 4
+p 10 / 4.0
+p 10 / 4.to_f
+p (10 / 4).to_f
+
+# variables
+x = 5
+y = 10
+puts y / x
+
+# working with string
+p "5" * 2
+# "5" * “5” error!
+# 2 * "5" error!
+
+puts "I am a line"
+puts "-" * 20
+puts "I am a diff line after a divider"
+20.times { print "-" } 
+20.times { puts "hi" }
+20.times { puts rand(10) }
+
+p "5".to_i # 5
+p "hello".to_i # 0
+
+puts "Simple calculator"
+25.times { print "-" }
+puts "Enter the first number"
+num_1 = gets.chomp
+puts "Enter the second number"
+num_2 = gets.chomp
+puts "The first number multiplied by the second number is #{num_1.to_i * num_2.to_i}"
+
 # Working with numbers - Text with directions, references and code
 
 To add and display the value of 1 + 2:
