@@ -1,4 +1,4 @@
-# methods
+# Methods
 
 # Extracting logic to methods
 # Branching if/else
